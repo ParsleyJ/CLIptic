@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E5E6A6A24A5278A000D96EE /* MultitouchSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5E6A6924A5278A000D96EE /* MultitouchSupport.framework */; };
+		2E5E6A6B24A5278A000D96EE /* MultitouchSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5E6A6924A5278A000D96EE /* MultitouchSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2ED3DD152508C4E200B165A2 /* ArgumentParserKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2ED3DD142508C4E200B165A2 /* ArgumentParserKit */; };
+		DFAE66BE801B48F6E86C787F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA6639126F8B5F6425C9B0A /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E5E6A6C24A5278A000D96EE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2E5E6A6B24A5278A000D96EE /* MultitouchSupport.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA99F31868D0C73C1283C72 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2E5E6A5224A52165000D96EE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		2E5E6A5724A526D1000D96EE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2E5E6A5824A526D1000D96EE /* CLIptic.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CLIptic.xcodeproj; sourceTree = "<group>"; };
+		2E5E6A5C24A526D1000D96EE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		2E5E6A5D24A526D1000D96EE /* TouchBarPrivateApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchBarPrivateApi.h; sourceTree = "<group>"; };
+		2E5E6A5F24A526D1000D96EE /* xcode.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = xcode.xml; sourceTree = "<group>"; };
+		2E5E6A6124A526D1000D96EE /* Project_Default.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Project_Default.xml; sourceTree = "<group>"; };
+		2E5E6A6224A526D1000D96EE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2E5E6A6324A526D1000D96EE /* workspace.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = workspace.xml; sourceTree = "<group>"; };
+		2E5E6A6424A526D1000D96EE /* modules.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = modules.xml; sourceTree = "<group>"; };
+		2E5E6A6524A526D1000D96EE /* misc.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = misc.xml; sourceTree = "<group>"; };
+		2E5E6A6624A526D1000D96EE /* CLIptic.iml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CLIptic.iml; sourceTree = "<group>"; };
+		2E5E6A6924A5278A000D96EE /* MultitouchSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultitouchSupport.framework; path = ../../../../../System/Library/PrivateFrameworks/MultitouchSupport.framework; sourceTree = "<group>"; };
+		2ED3DD182508C65C00B165A2 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		DFA6639126F8B5F6425C9B0A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = CLIptic/main.swift; sourceTree = SOURCE_ROOT; };
+		DFA916E12F59D0D08081EA28 /* CLIptic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CLIptic; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFA7C293178E49FC79A57E71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED3DD152508C4E200B165A2 /* ArgumentParserKit in Frameworks */,
+				2E5E6A6A24A5278A000D96EE /* MultitouchSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E5E6A2A24A517EF000D96EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E5E6A6924A5278A000D96EE /* MultitouchSupport.framework */,
+				2E5E6A5424A526D1000D96EE /* CLIptic */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E5E6A4224A5192B000D96EE /* CBridge */ = {
+			isa = PBXGroup;
+			children = (
+				2E5E6A5224A52165000D96EE /* Header.h */,
+			);
+			path = CBridge;
+			sourceTree = "<group>";
+		};
+		2E5E6A5424A526D1000D96EE /* CLIptic */ = {
+			isa = PBXGroup;
+			children = (
+				2E5E6A5524A526D1000D96EE /* CLIptic */,
+			);
+			name = CLIptic;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2E5E6A5524A526D1000D96EE /* CLIptic */ = {
+			isa = PBXGroup;
+			children = (
+				2E5E6A5624A526D1000D96EE /* CLIptic */,
+				2E5E6A5824A526D1000D96EE /* CLIptic.xcodeproj */,
+				2E5E6A5B24A526D1000D96EE /* CBridge */,
+				2E5E6A5E24A526D1000D96EE /* .idea */,
+			);
+			path = CLIptic;
+			sourceTree = "<group>";
+		};
+		2E5E6A5624A526D1000D96EE /* CLIptic */ = {
+			isa = PBXGroup;
+			children = (
+				2E5E6A5724A526D1000D96EE /* main.swift */,
+			);
+			path = CLIptic;
+			sourceTree = "<group>";
+		};
+		2E5E6A5924A526D1000D96EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E5E6A5B24A526D1000D96EE /* CBridge */ = {
+			isa = PBXGroup;
+			children = (
+				2E5E6A5C24A526D1000D96EE /* Header.h */,
+				2E5E6A5D24A526D1000D96EE /* TouchBarPrivateApi.h */,
+			);
+			path = CBridge;
+			sourceTree = "<group>";
+		};
+		2E5E6A5E24A526D1000D96EE /* .idea */ = {
+			isa = PBXGroup;
+			children = (
+				2E5E6A5F24A526D1000D96EE /* xcode.xml */,
+				2E5E6A6024A526D1000D96EE /* inspectionProfiles */,
+				2E5E6A6224A526D1000D96EE /* .gitignore */,
+				2E5E6A6324A526D1000D96EE /* workspace.xml */,
+				2E5E6A6424A526D1000D96EE /* modules.xml */,
+				2E5E6A6524A526D1000D96EE /* misc.xml */,
+				2E5E6A6624A526D1000D96EE /* CLIptic.iml */,
+			);
+			path = .idea;
+			sourceTree = "<group>";
+		};
+		2E5E6A6024A526D1000D96EE /* inspectionProfiles */ = {
+			isa = PBXGroup;
+			children = (
+				2E5E6A6124A526D1000D96EE /* Project_Default.xml */,
+			);
+			path = inspectionProfiles;
+			sourceTree = "<group>";
+		};
+		DFA09D9D20B3CAEE435B7A3C /* CLIptic */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6639126F8B5F6425C9B0A /* main.swift */,
+			);
+			path = CLIptic;
+			sourceTree = "<group>";
+		};
+		DFA151A94A71A6504B24F0E3 = {
+			isa = PBXGroup;
+			children = (
+				2ED3DD182508C65C00B165A2 /* Package.swift */,
+				2E5E6A4224A5192B000D96EE /* CBridge */,
+				DFA71EE6AB00DD60BEEFEB64 /* Products */,
+				DFA09D9D20B3CAEE435B7A3C /* CLIptic */,
+				2E5E6A2A24A517EF000D96EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DFA71EE6AB00DD60BEEFEB64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFA916E12F59D0D08081EA28 /* CLIptic */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFAF1680A1C855A8B2711E43 /* CLIptic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA2EDE1163D747AE6F90F1D /* Build configuration list for PBXNativeTarget "CLIptic" */;
+			buildPhases = (
+				DFABE50BDCDA5E3EDBAFD8C4 /* Sources */,
+				DFA7C293178E49FC79A57E71 /* Frameworks */,
+				DFA99F31868D0C73C1283C72 /* CopyFiles */,
+				2E5E6A6C24A5278A000D96EE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CLIptic;
+			packageProductDependencies = (
+				2ED3DD142508C4E200B165A2 /* ArgumentParserKit */,
+			);
+			productName = CLIptic;
+			productReference = DFA916E12F59D0D08081EA28 /* CLIptic */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFADE86E5A3982A48E3C6E20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = DFAB1FE6B721EB80A89B793F /* Build configuration list for PBXProject "CLIptic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFA151A94A71A6504B24F0E3;
+			packageReferences = (
+				2ED3DD132508C4E200B165A2 /* XCRemoteSwiftPackageReference "ArgumentParserKit" */,
+			);
+			productRefGroup = DFA71EE6AB00DD60BEEFEB64 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2E5E6A5924A526D1000D96EE /* Products */;
+					ProjectRef = 2E5E6A5824A526D1000D96EE /* CLIptic.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DFAF1680A1C855A8B2711E43 /* CLIptic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFABE50BDCDA5E3EDBAFD8C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAE66BE801B48F6E86C787F /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DFA2B6D6B695ABD70FD1D4F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Release;
+		};
+		DFA2D424C136D3247FE6BF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = CBridge/Header.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+			};
+			name = Debug;
+		};
+		DFAAE32C46FB37EE16758091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = CBridge/Header.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
+			};
+			name = Release;
+		};
+		DFAD92C19889D405110FB1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFA2EDE1163D747AE6F90F1D /* Build configuration list for PBXNativeTarget "CLIptic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFAD92C19889D405110FB1CA /* Debug */,
+				DFA2B6D6B695ABD70FD1D4F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFAB1FE6B721EB80A89B793F /* Build configuration list for PBXProject "CLIptic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA2D424C136D3247FE6BF46 /* Debug */,
+				DFAAE32C46FB37EE16758091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2ED3DD132508C4E200B165A2 /* XCRemoteSwiftPackageReference "ArgumentParserKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/crelies/ArgumentParserKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2ED3DD142508C4E200B165A2 /* ArgumentParserKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2ED3DD132508C4E200B165A2 /* XCRemoteSwiftPackageReference "ArgumentParserKit" */;
+			productName = ArgumentParserKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DFADE86E5A3982A48E3C6E20 /* Project object */;
+}
